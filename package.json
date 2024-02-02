@@ -1,0 +1,25 @@
+{
+  "name": "my-employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jazminnova/My-Employee-Tracker.git"
+  },
+  "author": "Jazmin Nova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jazminnova/My-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/Jazminnova/My-Employee-Tracker#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.9.1"
+  }
+}
