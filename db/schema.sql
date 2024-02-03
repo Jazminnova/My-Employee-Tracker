@@ -6,13 +6,13 @@ USE employee_tracker_db;
 
 CREATE TABLE departments (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL
+    name VARCHAR(30) NOT NULL
 );
 
 CREATE TABLE role (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(30) NOT NULL,
-    salary INT,
+    salary DECIMAL,
     departments_id INT,
     FOREIGN KEY (departments_id)
     REFERENCES departments(id)
